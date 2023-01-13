@@ -11,3 +11,10 @@ Ispis: [{"cijena":8,"naziv":"Kruh","kolicina":1}, {"cijena":13,"naziv":"Sok","ko
  
 4. Zadatak: Funkcija prima dvije liste, provjerava dal su istih duljina, ako nisu raise-a Error. Vraća novu listu uspoređujući elemente na istim indeksima. Ako su vrijednosti iste, vraća taj element, ako nisu vraća -1 na toj poziciji. (Funkcija mora imati dvije linije)
 Ispis: [1,2,3,4,5],[2,2,4,4,5] -> [-1, 2, -1, 4, 5]
+
+5. Zadatak: Funkcija prima listu tuple-a o studentima (id, ime, prezime). Vraća novu sortiranu po id-u (manji->veci) listu dictionary-a o studentima kojima ime i prezime počinje istim slovom. (One-liner u return-u)
+Ispis : [(121,"Ivan","Ivic"),(431,"Pero","Horvat"),(31,"Marija","Maric")] -> [{'id': 31, 'ime': 'Marija', 'prezime': 'Maric'}, {'id': 121, 'ime': 'Ivan', 'prezime': 'Ivic'}]
+
+6. Zadatak: Funkciji se predaju dva parametra. Provjera se jesu li parametri istog tipa, ako ne error. Provjeri se jesu li parametri liste ili dictionary, ako ne error. Vraća se spojena lista ili dictionary.
+Ispis : [1,2,1,2],[3,2] -> [1,2,1,2,3,2]
+Ispis : {1:2,3:2},{5:2,4:1} -> {1: 2, 3: 2, 5: 2, 4: 1}
