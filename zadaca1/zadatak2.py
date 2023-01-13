@@ -18,3 +18,4 @@ def funkcija1(l, d):
     
 print(funkcija2([8,7,1], {1:2,2:1,3:2}))
 
+ 
