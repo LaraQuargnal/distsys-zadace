@@ -4,3 +4,4 @@ def funkcija1(x):
     return [y for y in x if len(y) > 4]
 
 print(funkcija1(["Pas", "Macka", "Stol"]))
+ 
